@@ -6,7 +6,6 @@ resources:
   - src: cover.jpeg
     params:
       cover: true
-      private: true
 gender: femenino
 estatura: 1,70 m
 edad: 25 años
