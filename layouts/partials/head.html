@@ -3,9 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ with .Title }}{{ . }} -{{ end }} {{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}" />
-    <link rel="icon" type="image/svg+xml" href="{{ "images/favicon.svg" | relURL }}" />
-    <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | relURL }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
     <meta name="description" content="{{ with .Description }}{{ . | markdownify | plainify }}{{ else }}{{ with .Site.Params.description }}{{ . | markdownify | plainify }}{{ end }}{{ end }}" />
     {{ if .Params.keywords }}
       <meta name="keywords" content="{{ delimit .Params.keywords `, ` }}" />
