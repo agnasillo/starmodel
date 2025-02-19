@@ -3,7 +3,7 @@ date: 2023-01-12
 title: Serena Alvarez
 categories: ["modelos", "femenino"]
 resources:
-  - src: cover.jpg
+  - src: cover.jpeg
     params:
       cover: true
 ---

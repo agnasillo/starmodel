@@ -3,7 +3,7 @@ date: 2023-01-12
 title: Karla Rodriguez
 categories: ["modelos", "femenino"]
 resources:
-  - src: cover.jpg
+  - src: cover.jpeg
     params:
       cover: true
 ---
