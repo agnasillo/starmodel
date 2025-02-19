@@ -1,6 +1,6 @@
 ---
 date: 2023-01-12
-title: Mia Armas
+title: Lucia Balegno
 categories: ["modelos", "femenino"]
 resources:
   - src: cover.jpeg

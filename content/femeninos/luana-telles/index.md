@@ -6,6 +6,14 @@ resources:
   - src: cover.jpeg
     params:
       cover: true
+gender: femenino
+estatura: 1,70 m
+edad: 25 años
+busto: 90 cm
+cadera: 100 cm
+cintura: 70 cm
+ojos: Marrones
+habilidades: Baile, canto, actuación
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+{{< measurements >}}

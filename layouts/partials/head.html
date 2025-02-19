@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
     <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
     <meta name="description" content="{{ with .Description }}{{ . | markdownify | plainify }}{{ else }}{{ with .Site.Params.description }}{{ . | markdownify | plainify }}{{ end }}{{ end }}" />
     {{ if .Params.keywords }}
       <meta name="keywords" content="{{ delimit .Params.keywords `, ` }}" />

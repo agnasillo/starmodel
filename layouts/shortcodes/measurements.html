@@ -1,0 +1,20 @@
+<div class="measurements-card">
+  <h3 class="measurements-title">Detalles del Modelo</h3>
+  <ul class="measurements-list">
+    <li><strong>Estatura:</strong> {{ .Page.Params.estatura | default "No especificado" }}</li>
+    <li><strong>Edad:</strong> {{ .Page.Params.edad | default "? años" }}</li>
+    
+    {{ if eq .Page.Params.gender "femenino" }}
+      <li><strong>Busto:</strong> {{ .Page.Params.busto | default "No especificado" }}</li>
+      <li><strong>Cadera:</strong> {{ .Page.Params.cadera | default "No especificado" }}</li>
+      <li><strong>Cintura:</strong> {{ .Page.Params.cintura | default "No especificado" }}</li>
+    {{ else if eq .Page.Params.gender "masculino" }}
+      <li><strong>Talle camisa:</strong> {{ .Page.Params.talle_camisa | default "No especificado" }}</li>
+      <li><strong>Talle pantalón:</strong> {{ .Page.Params.talle_pantalon | default "No especificado" }}</li>
+      <li><strong>Calzado:</strong> {{ .Page.Params.calzado | default "No especificado" }}</li>
+    {{ end }}
+    
+    <li><strong>Color de ojos:</strong> {{ .Page.Params.ojos | default "No especificado" }}</li>
+    <li><strong>Habilidades:</strong> {{ .Page.Params.habilidades | default "No especificado" }}</li>
+  </ul>
+</div>
