@@ -3,9 +3,10 @@ date: 2023-01-12
 title: Abril Romero
 categories: ["modelos", "femenino"]
 resources:
-  - src: output.jpeg
+  - src: cover.jpeg
     params:
       cover: true
+      private: true
 gender: femenino
 estatura: 1,70 m
 edad: 25 años
