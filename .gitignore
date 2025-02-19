@@ -1,2 +1,6 @@
+# Hugo local build files
 /public/*
 /resources/*
+
+# OS files
+**/.DS_Store
