@@ -6,7 +6,7 @@ params:
   private: true # do not show in list, only as feature
 description: Galeria de StarModel
 resources:
-  - src: cover.png
+  - src: cover.jpg
     params:
       cover: true
 ---

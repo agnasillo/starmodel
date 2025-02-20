@@ -3,7 +3,7 @@ date: 2023-01-12
 title: Lucia Balegno
 categories: ["modelos", "femenino"]
 resources:
-  - src: cover.jpeg
+  - src: cover.jpg
     params:
       cover: true
 gender: femenino
