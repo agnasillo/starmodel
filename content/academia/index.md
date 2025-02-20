@@ -1,5 +1,5 @@
 ---
-title: "Academia StarModel"
+title: "Academia"
 date: 2025-02-17
 params:
   featured: true
@@ -9,8 +9,4 @@ resources:
   - src: cover.png
     params:
       cover: true
-  - src: photo.png
-    title: asd
-    params:
-        cover: false
 ---
