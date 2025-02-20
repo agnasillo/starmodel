@@ -1,4 +1,4 @@
-baseURL = "https://yourdomain.com"
+copyright = "© StarModel Internacional" 
 title = "StarModel Agency"
 defaultContentLanguage = "es"
 languageCode = "es"
@@ -6,11 +6,12 @@ disableLanguages = []
 
 theme = "gallery"
 
-
 [params]
+  defaultTheme = "dark"
+  
   title = "StarModel International"
-  subtitle = "Agencia de modelos StarmModel"
-  description = "Los mejores modelos son dde la academia StarModel"
+  subtitle = "Agencia de modelos StarModel"
+  description = "Los mejores modelos son de la academia StarModel"
 
   [params.socialIcons]
     facebook = "https://www.facebook.com/starmodelv/"
@@ -20,9 +21,10 @@ theme = "gallery"
     email = "mailto:starmodel.smi@gmail.com"
     whatsapp = "5491134384433"
 
-[module]
-  [[module.imports]]
-    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+  [params.gallery]
+    boxSpacing = 10
+    targetRowHeight = 288
+    targetRowHeightTolerance = 0.25
 
 [menu]
   [[menu.main]]
@@ -33,11 +35,20 @@ theme = "gallery"
       identifier = "fem"
       name = "Femeninos"
       url = "/femeninos/"
+  [[menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+  
+  [[menu.footer]]
+    name = "Sitio web"
+    url = "https://agenciastarmodel.com/"
+    weight = 3
 
 [languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
   [languages.es]
     languageName = "Español"
+    weight = 1
+  [languages.en]
+    languageName = "English"
     weight = 2
