@@ -8,6 +8,6 @@ params:
 resources:
   - src: album/dianna.jpeg
     title: Dianna Barrios, Directora Ejecutiva & Founder
-  - src: album/joglan.jpg
+  - src: album/joglan.jpeg
     title: Joglan Barrios, Director Comercial & Founder
 ---
