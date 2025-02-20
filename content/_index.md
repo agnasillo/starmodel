@@ -4,7 +4,7 @@ description: Modelos de la academia StarModel
 resources:
   - src: photo.jpeg
     params:
-      cover: true # cover of the home page is used for OpenGraph cards, etc.
+      cover: true
 menus:
   main:
     name: Home
