@@ -3,12 +3,10 @@ title = "StarModel Agency"
 defaultContentLanguage = "es"
 languageCode = "es"
 disableLanguages = []
-
 theme = "gallery"
 
 [params]
   defaultTheme = "dark"
-  
   title = "StarModel International"
   subtitle = "Agencia de modelos StarModel"
   description = "Los mejores modelos son de la academia StarModel"
