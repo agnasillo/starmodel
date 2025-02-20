@@ -7,13 +7,13 @@ resources:
     params:
       cover: true
 gender: femenino
-estatura: 1,70 m
-edad: 25 años
-busto: 90 cm
-cadera: 100 cm
+estatura: 1,72 m
+edad:
+busto: 89 cm
+cadera: 102 cm
 cintura: 70 cm
-ojos: Marrones
-habilidades: Baile, canto, actuación
+ojos: marrones
+habilidades: Streamer, Cantante, bailarina
 ---
 
 {{< measurements >}}

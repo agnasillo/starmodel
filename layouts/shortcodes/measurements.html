@@ -2,7 +2,7 @@
   <h3 class="measurements-title">Detalles del Modelo</h3>
   <ul class="measurements-list">
     <li><strong>Estatura:</strong> {{ .Page.Params.estatura | default "No especificado" }}</li>
-    <li><strong>Edad:</strong> {{ .Page.Params.edad | default "? años" }}</li>
+    <li><strong>Edad:</strong> {{ .Page.Params.edad | default "No especificado" }}</li>
     
     {{ if eq .Page.Params.gender "femenino" }}
       <li><strong>Busto:</strong> {{ .Page.Params.busto | default "No especificado" }}</li>

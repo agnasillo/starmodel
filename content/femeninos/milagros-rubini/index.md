@@ -8,12 +8,12 @@ resources:
       cover: true
 gender: femenino
 estatura: 1,70 m
-edad: 25 años
-busto: 90 cm
-cadera: 100 cm
-cintura: 70 cm
-ojos: Marrones
-habilidades: Baile, canto, actuación
+edad: 19 años
+busto: 87 cm
+cadera: 93 cm
+cintura: 67 cm
+ojos: marrones claros
+habilidades:
 ---
 
 {{< measurements >}}

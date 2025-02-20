@@ -3,17 +3,17 @@ date: 2023-01-12
 title: Trinidad Armas
 categories: ["modelos", "femenino"]
 resources:
-  - src: cover.jpeg
+  - src: cover.jpg
     params:
       cover: true
 gender: femenino
-estatura: 1,70 m
-edad: 25 años
-busto: 90 cm
-cadera: 100 cm
-cintura: 70 cm
-ojos: Marrones
-habilidades: Baile, canto, actuación
+estatura: 1,67 m
+edad:
+busto: 83 cm
+cadera: 98 cm
+cintura: 71 cm
+ojos: Marrones 
+habilidades: Bailarina 
 ---
 
 {{< measurements >}}
