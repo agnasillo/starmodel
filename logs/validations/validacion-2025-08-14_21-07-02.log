@@ -1,0 +1,27 @@
+🧹 Limpiando archivos basura...
+📝 Corrigiendo nombres de carpetas...
+🔍 Validando contenido...
+[1;33m⚠️ Advertencias:[0m
+ - Campos vacíos en content/femeninos/lucia-balegno/index.md
+ - El cover no está referenciado en resources: en content/femeninos/lucia-balegno/index.md
+ - Campos vacíos en content/femeninos/serena-alvarez/index.md
+ - El cover no está referenciado en resources: en content/femeninos/serena-alvarez/index.md
+ - Cover grande en content/femeninos/luana-telles (>2MB). Considerar comprimir.
+ - Campos vacíos en content/femeninos/luana-telles/index.md
+ - El cover no está referenciado en resources: en content/femeninos/luana-telles/index.md
+ - Cover grande en content/femeninos/milagros-rubini (>2MB). Considerar comprimir.
+ - Campos vacíos en content/femeninos/milagros-rubini/index.md
+ - El cover no está referenciado en resources: en content/femeninos/milagros-rubini/index.md
+🧹 Limpiando build...
+
+📋 Cambios detectados:
+| Categoría  | Agregados | Modificados | Eliminados | Total |
+|------------|-----------|-------------|------------|-------|
+| Femeninos  | — | — | — | 0 |
+| Masculinos | — | — | — | 0 |
+
+👥 Totales en el repositorio: Femeninos: [0;32m4[0m | Masculinos: [0;32m0[0m | Total: [0;32m4[0m
+
+[0;32mgit add .[0m
+[0;32mgit commit -m "Actualización de contenido - 2025-08-14"[0m
+[0;32mgit push origin main[0m
